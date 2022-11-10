@@ -33,3 +33,15 @@ body {
 .nav hover {
     background-color: rgb(65 65 65);
 }
+
+
+/*************************************/
+
+.books {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book-infobox {
+    border: 1px solid white;
+}
