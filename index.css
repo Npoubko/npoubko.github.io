@@ -53,15 +53,15 @@ a:hover {
 /*************************************/
 
 .clicky-img {
-    width: 300px;
+    width: 30px;
     height: 100%;
 }
 
-.clicky-img:hover {
+.clicky-img img:hover {
     border: 1px solid white;
 }
 
-.clicky-img:visited {
-    width: 1vw;
-    height: 100%;
+.clicky-img:visited img {
+    max-width: 80vw;
+    max-height: 80vh;
 }
