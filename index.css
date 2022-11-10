@@ -52,16 +52,7 @@ a:hover {
 
 /*************************************/
 
-.clicky-img {
-    width: 30px;
+.clicky-img img {
+    width: 300px;
     height: 100%;
-}
-
-.clicky-img img:hover {
-    border: 1px solid white;
-}
-
-.clicky-img:visited img {
-    max-width: 80vw;
-    max-height: 80vh;
 }
