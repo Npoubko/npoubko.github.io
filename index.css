@@ -2,3 +2,10 @@ body {
     color: white;
     background-color: black;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
