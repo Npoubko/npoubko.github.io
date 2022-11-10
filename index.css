@@ -33,7 +33,7 @@ body {
     color: white;
 }
 
-.nav hover {
+a:hover {
     background-color: rgb(80 80 80);
 }
 
@@ -42,6 +42,8 @@ body {
 
 .books {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
