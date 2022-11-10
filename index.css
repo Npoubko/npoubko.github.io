@@ -60,5 +60,13 @@ a:hover {
     height: 100%;
 }
 
+.img-link {
+    text-decoration: none;
+}
+
+.img-link:hover {
+    background-color: none;
+}
+
 /*************************************/
 
