@@ -37,7 +37,6 @@ a:hover {
     background-color: rgb(80 80 80);
 }
 
-
 /*************************************/
 
 .books {
@@ -49,4 +48,20 @@ a:hover {
 
 .book-infobox {
     border: 1px solid white;
+}
+
+/*************************************/
+
+.clicky-img {
+    width: 300px;
+    height: 100%;
+}
+
+.clicky-img:hover {
+    border: 1px solid white;
+}
+
+.clicky-img:visited {
+    width: 1vw;
+    height: 100%;
 }
