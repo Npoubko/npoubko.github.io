@@ -1,4 +1,7 @@
 body {
+    margin: 0;
+    border: 0;
+
     color: white;
     background-color: black;
 
@@ -31,7 +34,7 @@ body {
 }
 
 .nav hover {
-    background-color: rgb(65 65 65);
+    background-color: rgb(80 80 80);
 }
 
 
