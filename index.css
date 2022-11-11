@@ -34,6 +34,7 @@ body {
     color: white;
 }
 
+
 a:hover {
     background-color: rgb(80 80 80);
 }
@@ -117,6 +118,22 @@ footer {
 
 .quote-images .img-link img {
     width: 75vw;
+    height: 100%;
+}
+
+.quote-images-double {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin-bottom: 40px;
+}
+
+.quote-images-double .img-link img {
+    width: 40vw;
     height: 100%;
 }
 
