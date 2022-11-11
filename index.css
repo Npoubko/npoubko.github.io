@@ -108,7 +108,7 @@ footer {
 }
 
 /*************************************/
-
+/*
 .quote-images {
     display: flex;
     flex-direction: column;
@@ -120,7 +120,7 @@ footer {
     width: 75vw;
     height: 100%;
 }
-
+*/
 .quote-images-double {
     display: flex;
     flex-wrap: wrap;
@@ -148,10 +148,10 @@ footer {
         font-size: .7rem;
     }
 }
-
+/*
 @media only screen and (min-width: 1200px) {
     .quote-images .img-link img {
         width: 45vw;
         height: 100%;
     }
-}
+}*/
