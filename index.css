@@ -95,9 +95,7 @@ hr {
 
 #buy-a-shirt {
     text-decoration: none;
-    text-align: center;
-    padding: none;
-    margin: none;
+    padding: 0;
 }
 
 #mw {
