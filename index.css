@@ -89,7 +89,7 @@ hr {
     display: flex;
 }
 
-.book-img, .shirt-img {
+.book-img, .shirt-img, #mw {
     width: 20vw;
 }
 
