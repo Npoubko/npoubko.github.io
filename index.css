@@ -15,25 +15,42 @@ body {
     gap: 20px;
     align-items: center;
 
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: rgb(25 25 25);
-    border-bottom: 1px solid white;
-
-    margin-bottom: 30px;
+    border-bottom: 1px solid #666666;
 }
 
 .nav a, .back a {
     background-color: rgb(50 50 50);
     padding: 6px;
-    border: 1px white solid;
+    border: 1px #888888 solid;
     border-radius: 4px;
     text-decoration: none;
     color: white;
 }
 
+.title {
+    background-color: rgb(25 25 25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#title-img {
+    width: 50vw;
+    border: none;
+}
+
+#quote-images-title {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
 
 a:hover {
     background-color: rgb(80 80 80);
@@ -41,6 +58,8 @@ a:hover {
 
 h3 {
     text-decoration: underline;
+    padding-left: 50px;
+    padding-bottom: 25px;
 }
 
 img {
@@ -52,9 +71,13 @@ footer {
     text-align: center;
 }
 
+hr {
+    margin-top: 30px;
+}
+
 /*************************************/
 
-.books {
+.books, .shirts {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -66,8 +89,19 @@ footer {
     display: flex;
 }
 
-.book-img {
+.book-img, .shirt-img {
     width: 20vw;
+}
+
+#buy-a-shirt {
+    text-decoration: none;
+    text-align: center;
+    padding: none;
+    margin: none;
+}
+
+#mw {
+    border: none;
 }
 
 .qotd {
@@ -77,6 +111,10 @@ footer {
     justify-content: center;
 
     margin-bottom: 30px;
+}
+
+.qotd-title {
+    padding: 0px;
 }
 
 #qotd-img {
@@ -105,6 +143,29 @@ footer {
     position: sticky;
     top: 0;
     z-index: 1;
+}
+
+/*************************************/
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px
+}
+
+.footer-links a {
+    align-self: center;
+}
+
+.social-btn img {
+    width: 30px;
+    border: none;
+}
+
+#copyright {
+    font-style: italic;
 }
 
 /*************************************/
@@ -144,10 +205,15 @@ footer {
         font-size: .5rem;
     }
 
+    .footer-links a img {
+        width: 15px;
+    }
+
     h3 {
         font-size: .7rem;
     }
 }
+
 /*
 @media only screen and (min-width: 1200px) {
     .quote-images .img-link img {
